@@ -1,4 +1,4 @@
-# Examen-Parcial-3-Vinculante
+# Examen-Parcial-3-NoVinculante
 https://github.com/a-navia/Examen-Parcial-3-Vinculante-.git
 
 Estimado estudiante,
