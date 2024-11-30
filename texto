@@ -1,0 +1,25 @@
+-crear funcion para añadir tareas a un actor
+-crear funcion para añadir actores
+-listar tareas en un enum lista
+-cada vez que se lista se va sumando, y print cada tarea de cada actor.
+
+Tareas:
+
+-quieres asignar tarea a un actor (y/n)?
+-quieres añadir actor (y/n)?
+    print, nombre y tareas
+    asigna tarea A
+
+-imprime lo siguiente:
+    -actores
+    a
+    b
+    c
+    d
+    -tiempo
+    10,20,30,40,50,60,70,80,90,100
+    x en casillas, como una tabla
+-al final total de tiempo
+
+FUNCION O CONSTANTES NOMBRES CLAROS
+-crud actor
