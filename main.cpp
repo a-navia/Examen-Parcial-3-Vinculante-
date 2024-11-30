@@ -11,19 +11,19 @@ int main() {
     char choice;
 
     while (true) {
-        cout << "Do you want to assign a task to an actor (y/n)? ";
+        cout << "quieres asignar tarea a una actor (y/n)? ";
         cin >> choice;
         if (choice == 'y') {
             string actorId, taskId, taskDesc;
             int taskDuration;
-            cout << "Enter actor ID: ";
+            cout << "actor ID: ";
             cin >> actorId;
-            cout << "Enter task ID: ";
+            cout << "tarea ID: ";
             cin >> taskId;
-            cout << "Enter task description: ";
+            cout << "descripcion de tarea: ";
             cin.ignore();
             getline(cin, taskDesc);
-            cout << "Enter task duration: ";
+            cout << "duracion de tarea: ";
             cin >> taskDuration;
 
             Tarea tarea(taskId, taskDesc, taskDuration);
@@ -35,13 +35,13 @@ int main() {
             }
         }
 
-        cout << "Do you want to add an actor (y/n)? ";
+        cout << "quieres introducir un actor (y/n)? ";
         cin >> choice;
         if (choice == 'y') {
             string actorId, actorName;
-            cout << "Enter actor ID: ";
+            cout << "ID actor: ";
             cin >> actorId;
-            cout << "Enter actor name: ";
+            cout << "nombre actor: ";
             cin.ignore();
             getline(cin, actorName);
 
@@ -49,7 +49,7 @@ int main() {
             addActor(actors, actor);
         }
 
-        cout << "Current actors and their tasks:" << endl;
+        cout << "actores y tareas:" << endl;
         printTasksOfActors(actors);
     }
 
